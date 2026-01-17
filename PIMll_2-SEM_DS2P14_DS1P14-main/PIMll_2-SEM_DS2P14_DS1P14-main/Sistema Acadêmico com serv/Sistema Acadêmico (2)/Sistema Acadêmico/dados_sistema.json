@@ -1,0 +1,146 @@
+{
+    "usuarios": {
+        "1": {
+            "nome": "Admin Mestre",
+            "username": "admin",
+            "senha_hash": "$2b$12$i96G2ZFUT/pjBZVXAUIWxO9e02qd7ckrlNbGRWPGZn1WyoWEnt9Tq",
+            "id_funcao": "f1",
+            "cpf": "78343272033"
+        },
+        "2": {
+            "nome": "asd",
+            "username": "as",
+            "email": "asdf",
+            "cpf": "46150639894",
+            "senha_hash": "$2b$12$WD0G59iZXNeTlTAtZWDIcOQ23Gki.g0SfNtobS7EzMzGDed3620di",
+            "id_funcao": "f4"
+        }
+    },
+    "funcoes": {
+        "f1": "Admin",
+        "f2": "Coordenador",
+        "f3": "Professor",
+        "f4": "Aluno",
+        "f5": "Diretor",
+        "f6": "Vice-Diretor"
+    },
+    "permissoes": {
+        "p1": "cadastrar_usuario",
+        "p2": "lancar_nota",
+        "p3": "ver_boletim",
+        "p4": "gerar_relatorio_turma",
+        "p5": "acessar_relatorio_financeiro",
+        "p6": "prever_risco_aluno_rf",
+        "p8": "gerenciar_mensalidades",
+        "p9": "desligar_usuario",
+        "p10": "homologar_boletins",
+        "p11": "configurar_ano_letivo",
+        "p12": "alocar_professor_turma",
+        "p13": "criar_turma",
+        "p14": "editar_nota_bloqueada",
+        "p15": "gerenciar_ocorrencias",
+        "p16": "visualizar_lista_usuarios"
+    },
+    "funcao_permissao": {
+        "f1": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16"
+        ],
+        "f2": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p6",
+            "p12",
+            "p13",
+            "p14",
+            "p15"
+        ],
+        "f3": [
+            "p2",
+            "p3",
+            "p6"
+        ],
+        "f4": [
+            "p3"
+        ],
+        "f5": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16"
+        ],
+        "f6": [
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p8",
+            "p14",
+            "p15"
+        ]
+    },
+    "perfis_aluno": {
+        "2": {
+            "age": 15,
+            "sex": "F",
+            "address_type": "Urban",
+            "family_size": "Greater than 3",
+            "parent_status": "Living together",
+            "school": "MS",
+            "mother_education": "higher education",
+            "father_education": "higher education",
+            "mother_job": "teacher",
+            "father_job": "teacher",
+            "school_choice_reason": "reputation",
+            "guardian": "other",
+            "travel_time": "30 min. to 1 hour",
+            "class_failures": 0,
+            "school_support": "yes",
+            "family_support": "yes",
+            "extra_paid_classes": "yes",
+            "activities": "yes",
+            "nursery_school": "yes",
+            "higher_ed": "yes",
+            "internet_access": "yes",
+            "romantic_relationship": "no",
+            "family_relationship": 4,
+            "free_time": 5,
+            "social": 4,
+            "weekday_alcohol": 1,
+            "weekend_alcohol": 1,
+            "health": 5
+        }
+    },
+    "perfis_professor": {},
+    "perfis_coordenador": {},
+    "perfis_diretor": {},
+    "perfis_vice_diretor": {},
+    "proximo_id_disponivel": 3
+}
